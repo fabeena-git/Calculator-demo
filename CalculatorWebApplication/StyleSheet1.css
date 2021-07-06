@@ -1,0 +1,62 @@
+﻿body
+{
+    width: 400px;
+    height: 550px;
+}
+.table_main {
+    width: 400px;
+    height: 550px;
+    border: 1px solid black;
+   padding: 0px;
+
+}
+
+.tdfirst {
+    width: 400px;
+    height: 70px;
+    text-align: right;
+    margin-right: 50px;
+    background-color: #dddddd;
+    border: 2px double black;
+}
+.lblDisplay {
+    color: #000000;
+    font-family: Arial;
+    font-size: 50px;
+    height: 70px;
+    
+}
+.btnOperator {
+    background-color: #999999;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    height: 80px;
+    width: 80px;
+}
+.btn {
+    background-color: #999999;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    height: 80px;
+    width: 80px;
+}
+.twocolums {
+    background-color: #999999;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    height: 80px;
+    text-align: center;
+    width: 160px;
+}
+.btnEqual {
+    background-color: #999999;
+   border-width: 0px;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    height: 80px;
+    width: 160px;
+}
