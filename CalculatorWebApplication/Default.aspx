@@ -4,24 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Calculator</title>
+    <title>Calculator C#</title>
     <link href="StyleSheet1.css" rel="stylesheet" />
-    <style type="text/css">
-        .btnEqual {
-            height: 26px;
-        }
-    </style>
-    
-</head>
+       </head>
 <body style="margin:0px;width:400px; height:500px;">
     <form id="form1" runat="server">
          <table class="table_main">
             <tr>
                 <td colspan="4" class="tdfirst"> <asp:Label ID="lbl_DisplayValue" runat="server" CssClass="lblDisplay" Text="0"></asp:Label></td>
             </tr>
-             <!-- <tr>
-                <td colspan="4" class="tdfirst"> <asp:Label ID="lbl_DisplayResult" runat="server" CssClass="lblDisplay" Text="0" Visible="false"></asp:Label></td>
-            </tr> -->
             <tr>
                 <td colspan="2"class="twocolums"  ><asp:Button ID="btn_Clear" runat="server" Text="C" CssClass="btnEqual" OnClick="btn_Clear_Click" /></td>
                <td colspan="2" class="twocolums" ><asp:Button ID="btn_Equals" runat="server" Text="=" CssClass="btnEqual" OnClick="btn_Equals_Click" /></td>
